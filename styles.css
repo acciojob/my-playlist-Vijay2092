@@ -1,1 +1,25 @@
 /*  your css code here. If applicable */
+h1,h2{
+  text-align: center;
+}
+body {
+  padding-inline: 1rem;
+  box-sizing: border-box;
+}
+a {
+  color: #000;
+}
+.player_one,
+.player_two {
+  padding: 1rem;
+  border-radius: 10px;
+  border: 1px solid #000;
+}
+
+.player_two {
+  width: max-content;
+  margin: auto;
+}
+audio {
+  width: 100%;
+}
